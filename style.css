@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(blue, black);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(0, 0, 0, 0.212);
+  backdrop-filter: blur(50px);
+  height: 70vh;
+  width: 40vw;
+  margin-top: 60px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 10px black;
+}
+
+.clock {
+  height: 100%;
+  color: #F5F1DC;
+  text-shadow: 5px 5px 50px black;
+}
+
+.clock1 {
+  width: 55%;
+}
+
+.clock2 {
+  width: 45%;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+#hrs{
+  height: 40%;
+  text-align: center;
+  font-size: 150px;
+}
+
+#mins{
+  height: 40%;
+  text-align: center;
+  font-size: 150px;
+}
+
+#colon{
+  height: 20%;
+  text-align: center;
+  font-size: 90px;
+}
+
+#mon{
+  margin-left: 15px;
+}
+
+.date{
+  height: 10%; 
+  font-size: 40px;
+}
+
+#year{
+  height: 20%;
+  font-size: 60px;
+}
+
+#day{
+  height: 20%;
+  font-size: 50px;
+  margin-top: -20px;
+}
+
+#am-pm{
+  height: 20%;
+  font-size: 80px;
+  padding-top: 30px;
+}
+
+#sec{
+  height: 30%;
+  font-size: 80px;
+  margin-top: 0px;
+}
+
